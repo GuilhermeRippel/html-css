@@ -1,0 +1,47 @@
+*{
+    text-align: center;
+}
+
+body{
+    font-family: sans-serif;
+    background-color: dimgray;
+}
+
+nav{
+    background-color: grey;
+}
+
+nav > a{
+    text-decoration: none;
+    color: rgb(72, 78, 65);
+    margin-right: 20px;
+}
+
+a:hover{
+    color: red;
+    background-color: black;
+}
+
+header{
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+}
+
+main{
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 2px 2px 10px black ;
+}
+
+.ntexto{
+    text-align: justify;
+}
+
+footer{
+    background-color: blue;
+    color: wheat;
+    padding: 10px;
+    margin: 10px;
+}
