@@ -19,6 +19,7 @@ body{
 
 header{
     padding-top: 20px;
+    padding-bottom: 22px;
     margin-bottom: 30px;
     height: 125px;
     color: white;
@@ -33,9 +34,22 @@ header h1{
 }
 
 header a{
+    font-size: 1.19em;
     text-decoration: none;
     color: white;
     padding: 0px 20px;
+}
+
+header a:hover{
+    background-color: white;
+    color: black;
+    font-size: 1.5em;
+    border-radius: 20px;
+    transition-duration: 0.6s;
+}
+
+nav{
+    
 }
 
 article{
