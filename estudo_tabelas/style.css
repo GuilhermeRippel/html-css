@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table{
+    border: 1px solid black;
+    width: 200px;
+    height: 300px;
+    padding: 5px;
+    text-align: center;
+    border-collapse: collapse; /*retira espaço entre linhas*/
+    background-image: linear-gradient(to right, #c6e74d62, grey);
+}
+
+td{
+    border: 1px solid black;
+}
